@@ -1,0 +1,171 @@
+
+/* Whole Web Page */
+
+body {
+    background-color: #232527;
+}
+
+
+/* Navigation Bar */
+
+.topnav {
+    background-color: #191b1d;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles the text in the navigation bar */
+
+.topnav a {
+    float: left;
+    padding: 14px 16px;
+    margin-right: 15px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles the search box inside the navigation bar */
+
+.topnav input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    border-color: #3f4143;
+    margin: 10px;
+    padding-left: 10px;
+    width: 25%;
+    height: 25px;
+    background-color: rgba(0, 0, 0, .7);
+    color: #bdbebe;
+}
+
+/* Styles the 'Sign Up' Button on the right of the navigation bar */
+
+#nav-right {
+    margin-top: 7px;
+    float: right;
+    padding: 5px;
+    width: 80px;
+    border: 1px solid #00b06f;
+    border-radius: 8px;
+    background-color: #00b06f;
+}
+
+/* Login Box in the center of the page */
+
+.login {
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding: 15px;
+    text-align: center;
+    width: 368px;
+    height: 445px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #393b3d;
+}
+
+/* The 'Login to Roblox' heading */
+
+h1.login {
+    font-size: 32px;
+    margin: 0;
+}
+
+/* Changes the hyperlinks' color to white */
+
+.login a {
+    color: #ffffff;
+}
+
+/* Styles the username and password text boxes */
+
+.login-user-pass {
+    margin-top: 0;
+    margin-bottom: 15px;
+    padding: 5px 5px;
+    width: 330px;
+    height: 25px;
+    border-radius: 8px;
+    border-color: #232527;
+    background-color: rgba(0, 0, 0, .7);
+    color: #bdbebe;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Changes to the 'Email me...' and 'Use another...' buttons */
+
+.login-button {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    padding: 9px;
+    width: 368px;
+    border: 1px solid #b8b8b8;
+    border-radius: 8px;
+    border-color: #bdbebe;
+    background-color: transparent;
+    color: #bdbebe;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Gives the above mentioned buttons a white glow and changes mouse cursor when hovered over it */
+
+.login-button:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    cursor: pointer;
+}
+
+/* Changes to the hr element that is under the 'Forget Pass...' */
+
+.hr-under-forget {
+    margin: 15px;
+}
+
+/* Links at the bottom of the page, this one changes the div */
+
+.bottom-links {
+    margin: auto;
+    margin-top: 140px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Changes to the links under this div near the bottom of the page */
+
+.bottom-links a {
+    padding: 20px;
+    color: #bdbebe;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+/* Footer, this one changes the hr element before the copyright text */
+
+.footer-hr {
+    display: inline-block;
+    margin-left: 210px;
+    width: 1000px;
+    color: #b8b8b8;
+}
+
+/* Changes to the copyright text in the footer */
+
+footer > p {
+    text-align: center;
+    color: #b8b8b8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
